@@ -13,5 +13,6 @@ for i in numbers:
         primes.append(i)
     if is_prime == False:
         not_primes.append(i)
+not_primes.pop(0)
 print(primes)
 print(not_primes)
